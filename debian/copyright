@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pop-fonts
+Source: https://github.com/system76/pop-fonts
+
+Files: *
+Copyright: Copyright 2016-2017 System76
+License: SIL-OFL

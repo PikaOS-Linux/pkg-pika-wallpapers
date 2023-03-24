@@ -1,0 +1,12 @@
+Source: pika-wallpapers
+Section: gnome
+Priority: optional
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Uploaders: Ian Santopietro <ian@system76.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/PikaOS-Linux/pkg-pika-wallpapers
+
+Package: pika-wallpapers
+Architecture: all
+Description: Pika Wallpapers
