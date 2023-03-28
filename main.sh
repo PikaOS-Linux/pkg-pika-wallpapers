@@ -6,7 +6,7 @@ add-apt-repository https://ppa.pika-os.com
 add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
-gen-xml.sh
+./gen-xml.sh
 mkdir -p ./pika-wallpapers
 cp -rvf ./* ./pika-wallpapers || echo
 cd ./pika-wallpapers
