@@ -7,3 +7,9 @@ export DEB_BUILD_OPTIONS = nocheck
 
 %:
 	dh $@
+
+
+override_dh_install:
+	dh_install
+	mkdir -p debian/pika-wallpapers/usr/share/wallpapers
+	ln -sf /usr/share/backgrounds/pika debian/pika-wallpapers/usr/share/wallpapers/pika
